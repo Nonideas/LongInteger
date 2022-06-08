@@ -39,14 +39,25 @@ LongInteger& operator-=(const LongInteger& val) -- Оператор -=, отня
 LongInteger& operator*=(const LongInteger& val) -- Оператор *=, умножить на...
 
 LongInteger& operator/=(const LongInteger& val) -- Оператор /=, поделить на...
+
 bool operator==(const LongInteger& right) -- Оператор ==, возвращает true если аргумент равен исходному числу
+
 bool operator!=(const LongInteger& right) -- Оператор !=, возвращает true если аргумент не равен исходному числу
+
 bool operator>=(const LongInteger &right) -- Оператор больше либо равно
+
 bool operator<=(const LongInteger &right) -- Оператор меньше либо равно
+
 bool operator>(const LongInteger &right) -- Оператор больше
+
 bool operator<(const LongInteger &right) -- Оператор меньше
+
 LongInteger operator+(const LongInteger& right) -- Оператор сложения длинных целых чисел
+
 LongInteger operator-(const LongInteger& right) -- Оператор вычитания длинных целых чисел
+
 LongInteger operator*(const LongInteger& right) -- Оператор умножения длинных целых чисел
+
 LongInteger operator/(const LongInteger& right) -- Оператор деления длинных целых чисел
+
 LongInteger operator%(const LongInteger &right) -- Оператор остаток от деления длинных целых чисел
